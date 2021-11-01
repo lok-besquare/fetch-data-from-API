@@ -15,5 +15,5 @@ void main(List<String> arguments) {
         DateTime.fromMillisecondsSinceEpoch(serverTimeAsEpoch * 1000);
     print('Name: $getSymbol Price: $getPrice Time: $serverTime');
   });
-  channel.sink.add('{"ticks": "R_50","subscribe": 1}');
+  channel.sink.add('{"ticks": "frxAUDUSD","subscribe": 1}');
 }
